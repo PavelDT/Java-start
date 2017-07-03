@@ -5,7 +5,8 @@ class EncodeDecodeBase64
 {
     public static void main(String [] args) 
     {
-        new EncodeDecodeBase64().test();
+        EncodeDecodeBase64 edBase64 = new EncodeDecodeBase64();
+        edBase64.test();
     }
 
     public Boolean test()
